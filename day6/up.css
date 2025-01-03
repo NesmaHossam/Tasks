@@ -1,0 +1,32 @@
+.cont div{
+      background-color: red;
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      border-radius: 50%;
+      animation-name: up;
+      animation-iteration-count: infinite;
+      animation-duration: 1s; 
+      animation-direction: alternate;
+}
+
+
+.cont{
+    display: flex;
+    justify-content: center ;
+}
+
+@keyframes up{
+    to{
+        opacity: 0.5;
+        transform: translatey(20px);
+    }
+}
+
+.one{
+    animation-delay: 0.4s;
+}
+
+.three{
+    animation-delay: 0.8s;
+}

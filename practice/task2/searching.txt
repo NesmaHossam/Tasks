@@ -1,0 +1,9 @@
+1)<button>
+- offer many contributing possibilities.
+-can have content inside it.
+-permits phrasing content inside button element contents like text or images.
+-tag uses opening and closing bracket.
+
+2) input type=”button” 
+-attribute does not permit content.
+-attribute uses only single tag.

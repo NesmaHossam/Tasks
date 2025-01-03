@@ -1,0 +1,59 @@
+.cont{
+    background-color: black;
+    height: 250px;
+    width: 120px;
+    margin: auto;
+   
+}
+
+.cont div{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 25px;
+    
+}
+
+
+.div1{
+    background-color: red;
+   box-shadow: 1px 1px red;
+}
+
+.div2{
+    background-color: yellow;
+    box-shadow: 1px 1px yellow;
+
+}
+
+.div3{
+    background-color: green;
+    box-shadow: 1px 1px green;
+}
+
+.one{
+    background-color: black;
+    height: 200px;
+    width: 30px;
+    margin: auto;
+}
+
+.traf{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.div1:hover{
+box-shadow: 0px 0px 20px 8px red;
+}
+
+.div2:hover{
+    box-shadow: 0px 0px 20px 8px yellow;
+}
+
+.div3:hover{
+    box-shadow: 0px 0px 20px 8px green;
+} 

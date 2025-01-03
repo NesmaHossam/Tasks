@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+  max-width: 500px;
+  margin:200px auto;
+  /* width: 60%; */
+  
+
+  
+}
+
+#one {
+  color: white;
+}
+
+#two {
+  color: #38bdf8;
+}
+
+h3 {
+  color: white;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #38bdf8;
+  padding: 15px;
+  border-radius: 6px;
+  margin-left: 20px;
+  /* margin-top: 20px; */
+  font-weight: bold;
+}
+
+#passwordsize {
+  background-color: rgb(85, 82, 82);
+  padding: 10px;
+  text-align: center;
+  /* margin-right: 20px; */
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+hr {
+  width: 400px;
+}
+
+#password1,
+#password2 {
+  padding: 10px;
+  /* margin-top: 20px; */
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  color: #38bdf8;
+}
+#password2 {
+  margin-left: 20px;
+}
+
+#messagecopied {
+  color: white;
+  text-align: center;
+  visibility: hidden;
+  margin-top: 30px;
+}
+
+#messagecopied.show {
+  visibility: visible;
+}
+
+#message {
+  color: white;
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+#message.show {
+  visibility: visible;
+}

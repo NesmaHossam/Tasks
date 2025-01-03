@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Password Generator</title>
+    <link href="bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="one">Generate a</h1>
+      <h1 id="two">random password</h1>
+      <h3>Never use an insecure password again.</h3>
+      <br />
+      <input id="passwordsize" type="text" placeholder="password size" />
+      <button onclick="clicked()">Generate Password</button>
+      <hr />
+      <input type="text" id="password1" onclick="copyClip('pass1')" disabled />
+      <input type="text" id="password2" onclick="copyClip('pass2')" disabled />
+
+      <h3 id="messagecopied">copied to your clipboard</h3>
+      <h4 id="message">Click to any password to copy it ..</h4>
+    </div>
+
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
